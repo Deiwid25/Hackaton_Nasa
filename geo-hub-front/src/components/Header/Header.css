@@ -1,0 +1,40 @@
+.header {
+  align-items: center;
+  background-color: var(--primary-500);
+  border-radius: 16px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 1vw;
+  z-index: 99;
+  position: absolute;
+  width: 38vw;
+  aspect-ratio: 620/93;
+  margin: 1vw 1vw; 
+  min-width: fit-content;
+}
+
+.img-header--container img {
+  height: 100%;
+  max-width: 150px;
+  margin: 0 8px;
+}
+
+.typography-header {
+  color: var(--shades-0);
+  text-transform: none;
+}
+
+@media (max-width: 600px) {
+  .header {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90vw;
+  }
+
+  .img-header--container {
+    height: 8vh;
+    margin: -5px 0 -5px 0;
+  }
+}

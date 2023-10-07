@@ -1,0 +1,12 @@
+.zoom-control {
+  z-index: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 3px 0;
+}
+
+@media (max-width: 600px) {
+  .zoom-control {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.sliderTime {
+    width: 100vw;
+    z-index: 99;
+    position: fixed;
+    bottom: 1vh;
+    display: flex;
+    align-items: center;
+  
+    /* justify-content: space-around; */
+    padding: 0 1vw 0 0;
+}
+
+@media (max-width: 600px) {
+    .sliderTime {
+        width: 90vw;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;
+    }
+}

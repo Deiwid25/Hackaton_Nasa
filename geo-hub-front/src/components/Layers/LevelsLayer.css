@@ -1,0 +1,10 @@
+.marker-level {
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--shades-0);
+  color: var(--shades-0);
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  width: 25px;
+}

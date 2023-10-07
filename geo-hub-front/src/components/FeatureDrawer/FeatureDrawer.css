@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+  .feature-drawer--container {
+    width: 80%;
+
+  }
+}
+.feature-drawer--container {
+  width: 30%;
+}
+
+.MuiDrawer-paper {
+  background-color: transparent;
+}

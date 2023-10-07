@@ -1,0 +1,13 @@
+.legendsLayers {
+  z-index: 400;
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-top: 12px;
+}
+
+@media (max-width: 600px) {
+  .legendsLayers {
+    display: none;
+  }
+}

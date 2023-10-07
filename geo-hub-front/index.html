@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin="anonymous"/>
+    <Link rel="preload" as="image" href="./src/assets/images/logoSiata.svg"/>
+    <!-- Precarga de la última imagen de radar -->
+    <Link rel="preload" as="image" href="https://siata.gov.co/kml/00_Radar/Ultimo_Barrido/AreaMetRadar_10_120_DBZH.png?0" crossorigin="anonymous"/>
+    <!-- Precarga del geojson de aire -->
+    <Link rel="preconnect" href="https://siata.gov.co/GEOPORTAL/Aire/Aire_pm25.geojson" crossorigin="anonymous"/>
+    <Link rel="dns-prefecth" href="https://siata.gov.co/GEOPORTAL/Aire/Aire_pm25.geojson"/>
+    <!-- Precarga de la api de aire -->
+    <Link rel="preconnect" href="http://192.168.9.200:8051/GeoData/geodataJson/1/pm25/" crossorigin="anonymous"/>
+    <Link rel="dns-prefecth" href="http://192.168.9.200:8051/GeoData/geodataJson/1/pm25/"/>
+    <!-- Precarga de la api de aire -->
+    <Link rel="preconnect" href="http://192.168.9.200:8051/GeoData/geodataJson/1/pm25/" crossorigin="anonymous"/>
+    <Link rel="dns-prefecth" href="http://192.168.9.200:8051/GeoData/geodataJson/1/pm25/"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin="" />
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIATA - Geoportal</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="modal"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""></script>
+      <script src="leaflet-tilelayer-colorfilter.min.js"></script>
+  </body>
+</html>

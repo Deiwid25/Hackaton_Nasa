@@ -1,0 +1,17 @@
+.menuNetwork {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .menuNetwork {
+        z-index: 99;
+        position: fixed;
+        bottom: 7vh;
+        left: 5vw;
+        display: flex;
+    }
+
+    .custom-menu {
+        margin-top: -10vh;
+    }
+}

@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+    .informationButtons {
+        bottom: 7vh;
+        right: 5vw;
+        z-index: 99;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,24 @@
+.right-buttons-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-right: 0.5vw;
+  padding-top: 18vh;
+  z-index: 800;
+}
+
+/* .leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+  filter: invert(83%) hue-rotate(180deg) brightness(95%) contrast(90%);
+} */
+
+.dark-mode {
+  filter: invert(83%) hue-rotate(235deg) brightness(95%) contrast(90%);
+}
+
+.light-mode {
+  display: none;
+}

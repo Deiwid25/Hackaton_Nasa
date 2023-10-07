@@ -1,0 +1,42 @@
+.forecast-header--container {
+  border: none;
+  border-radius: 8px;
+  display: grid;
+  width: 90vw;
+}
+
+.forecast-desktop--container {
+  position: absolute;
+  z-index: 10;
+  top: 110px;
+  border: none;
+  width: 38vw;
+  height: max-content;
+  margin: 1vw 1vw;
+  border-radius: 16px;
+  display: flex;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 523px;
+  padding: 10px 20px;
+}
+
+.forecast-location--container {
+  align-items: center;
+  border-right: 1px solid black;
+  display: flex;
+  height: 90%;
+  width: 240px;
+}
+
+@media (max-width: 600px) {
+  .forecast-header--container {
+    position: absolute;
+    z-index: 99;
+    top: 110px;
+    overflow-x: hidden;
+  }
+}

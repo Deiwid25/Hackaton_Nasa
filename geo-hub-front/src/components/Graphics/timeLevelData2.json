@@ -1,0 +1,64 @@
+[
+  {
+    "Codigo": 12,
+    "nivelSeguro": 1.5,
+    "nivelPrecaucion": 2,
+    "inundacionMenor": 2.5,
+    "inundacionMayor": 3.5,
+    "nivelActual": 0.5,
+    "perfilNivel": {
+      "x": [0, 0.9, 1.8, 2.8, 3.7, 4.6, 5.5],
+      "y": [2.5, 2.5, 0.3, 0.2, 0.1, 0.2, 2.6]
+    },
+    "fechaUltimoDato": "2023-09-26T15:40:12.292Z",
+    "nivelUltimas3h": {
+      "x": [
+        "2023-09-26T15:40:12.292Z",
+        "2023-09-26T15:39:12.292Z",
+        "2023-09-26T15:38:12.292Z",
+        "2023-09-26T15:37:12.292Z"
+      ],
+      "y": [2.4, 1.5, 2.1, 0.6]
+    },
+
+    "coberturas": {
+      "bosque": 51.36,
+      "pasto": 31.58,
+      "cuerposDeAgua": 0.01,
+      "sueloDesnudo": 0.62,
+      "urbano": 11.82,
+      "cultivo": 4.62
+    }
+  },
+
+  {
+    "Codigo": 13,
+    "nivelSeguro": 0.7,
+    "nivelPrecaucion": 1.2,
+    "inundacionMenor": 2.5,
+    "inundacionMayor": 4,
+    "nivelActual": 0.5,
+    "perfilNivel": {
+      "x": [0, 0.9, 1.8, 2.8, 3.7, 4.6, 5.5],
+      "y": [2.5, 2.5, 0.3, 0.2, 0.1, 0.2, 2.6]
+    },
+    "fechaUltimoDato": "2023-09-26T15:40:12.292Z",
+    "nivelUltimas3h": {
+      "x": [
+        "2023-09-26T15:40:12.292Z",
+        "2023-09-26T15:39:12.292Z",
+        "2023-09-26T15:38:12.292Z",
+        "2023-09-26T15:37:12.292Z"
+      ],
+      "y": [2.4, 1.5, 2.1, 0.6]
+    },
+    "coberturas": {
+      "bosque": 51.36,
+      "pasto": 31.58,
+      "cuerposDeAgua": 0.01,
+      "sueloDesnudo": 0.62,
+      "urbano": 11.82,
+      "cultivo": 4.62
+    }
+  }
+]

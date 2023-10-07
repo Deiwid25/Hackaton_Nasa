@@ -1,0 +1,20 @@
+.socialNetworks {
+    width: 37vw;
+    position: absolute;
+    z-index: 99;
+    top: 5vh;
+    right: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button-socialNetworks {
+    color: var(--primary-500);
+}
+
+@media (max-width: 600px) {
+    .socialNetworks {
+        display: none;
+    }
+}

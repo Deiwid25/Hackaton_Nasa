@@ -1,0 +1,425 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.330452,
+               6.43696
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Torre Social",
+            "Estacion":"BAR-TORR",
+            "Codigo":81,
+            "PM2.5_24H-prom":8.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_81_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.448145,
+               6.373635
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Girardota - Tanques EPM",
+            "Estacion":"GIR-EPM",
+            "Codigo":101,
+            "PM2.5_24H-prom":9.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_101_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.50474,
+               6.345361
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Ciudadela Educativa de la Vida",
+            "Estacion":"COP-CVID",
+            "Codigo":82,
+            "PM2.5_24H-prom":8.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_82_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.5678,
+               6.33755
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"I.E. Fernando V\u00e9lez",
+            "Estacion":"BEL-FEVE",
+            "Codigo":87,
+            "PM2.5_24H-prom":11.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_87_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.556427,
+               6.29346
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"I.E. Ciro Mend\u00eda",
+            "Estacion":"MED-ARAN",
+            "Codigo":86,
+            "PM2.5_24H-prom":10.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_86_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.6366,
+               6.2805
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Parque Biblioteca Fernando Botero",
+            "Estacion":"MED-SCRI",
+            "Codigo":85,
+            "PM2.5_24H-prom":10.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_85_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.573708,
+               6.268789
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Fiscal\u00eda General de la Naci\u00f3n",
+            "Estacion":"MED-FISC",
+            "Codigo":100,
+            "PM2.5_24H-prom":13.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_100_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#FFFF00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.551639,
+               6.261722
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Planta de agua potable de EPM",
+            "Estacion":"MED-VILL",
+            "Codigo":80,
+            "PM2.5_24H-prom":10.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_80_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.56958,
+               6.252561
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Estaci\u00f3n Tr\u00e1fico Centro",
+            "Estacion":"CEN-TRAF",
+            "Codigo":12,
+            "PM2.5_24H-prom":17.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_12_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#FFFF00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.61201,
+               6.243
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"I.E. Pedro Justo Berr\u00edo",
+            "Estacion":"MED-BEME",
+            "Codigo":83,
+            "PM2.5_24H-prom":11.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_83_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.498472,
+               6.236361
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Medell\u00edn - Santa Elena",
+            "Estacion":"MED-SELE",
+            "Codigo":94,
+            "PM2.5_24H-prom":6.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_94_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.610603,
+               6.221894
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"I.E. Pedro Octavio Amado",
+            "Estacion":"MED-ALTA",
+            "Codigo":79,
+            "PM2.5_24H-prom":13.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_79_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#FFFF00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.56095,
+               6.19987
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"I.E. INEM sede Santa Catalina",
+            "Estacion":"MED-TESO",
+            "Codigo":84,
+            "PM2.5_24H-prom":11.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_84_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.597206,
+               6.185667
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Casa de Justicia",
+            "Estacion":"ITA-CJUS",
+            "Codigo":28,
+            "PM2.5_24H-prom":10.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_28_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.550636,
+               6.182542
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Tanques La Ye EPM",
+            "Estacion":"MED-LAYE",
+            "Codigo":44,
+            "PM2.5_24H-prom":14.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_44_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#FFFF00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.644356,
+               6.168497
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"I.E. Concejo Municipal de Itag\u00fc\u00ed",
+            "Estacion":"ITA-CONC",
+            "Codigo":38,
+            "PM2.5_24H-prom":15.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_38_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#FFFF00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.58197,
+               6.16849
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"E.S.E Santa Gertrudis",
+            "Estacion":"ENV-HOSP",
+            "Codigo":88,
+            "PM2.5_24H-prom":14.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_88_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#FFFF00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.644169,
+               6.155531
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Hospital",
+            "Estacion":"EST-HOSP",
+            "Codigo":78,
+            "PM2.5_24H-prom":18.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_78_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#FFFF00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.62126,
+               6.1455
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"I.E Rafael J. Mej\u00eda",
+            "Estacion":"SAB-RAME",
+            "Codigo":90,
+            "PM2.5_24H-prom":16.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_90_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#FFFF00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.637764,
+               6.093078
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"E U Joaquin Aristizabal",
+            "Estacion":"CAL-JOAR",
+            "Codigo":69,
+            "PM2.5_24H-prom":12.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_69_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      },
+      {
+         "type":"Feature",
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               -75.583055,
+               6.285
+            ]
+         },
+         "properties":{
+            "NombreEstacion":"Tom\u00e1s Carrasquilla - La Quintana",
+            "Estacion":"MED-PBLQ",
+            "Codigo":103,
+            "PM2.5_24H-prom":10.0,
+            "PM2.5_24H-fig":"https://siata.gov.co/DatosRedAire/Nuevo_GraficasRedAire/Estacion_103_PM2.5_Ultimas_12_Horas.png",
+            "FechaInicio":"2023-06-05 13:00",
+            "FechaFin":"2023-06-06 12:00",
+            "Color":"#009B00"
+         }
+      }
+   ]
+}

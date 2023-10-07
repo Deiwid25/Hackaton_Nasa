@@ -1,0 +1,12 @@
+.interactionButtons {
+  z-index: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+@media (max-width: 600px) {
+  .interactionButtons {
+    right: 5vw;
+  }
+}

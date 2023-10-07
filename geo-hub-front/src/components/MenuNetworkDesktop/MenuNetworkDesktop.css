@@ -1,0 +1,12 @@
+.menuNetworkDesktop {
+    z-index: 99;
+    position: absolute;
+    bottom: 7vh;
+    left: 1vw;
+}
+
+@media (max-width: 600px) {
+    .menuNetworkDesktop {
+        display: none;
+    }
+}

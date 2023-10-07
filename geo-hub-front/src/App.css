@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .header-app {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+  }
+}
+body {
+  scroll-behavior: initial;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

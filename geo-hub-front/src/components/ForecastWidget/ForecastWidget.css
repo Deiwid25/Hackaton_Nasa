@@ -1,0 +1,47 @@
+.forecast-report--item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Rubik;
+  justify-content: space-between;
+  text-align: center;
+  /* border-left: 1px solid #9ccee4; */
+  padding: 0 10px;
+  padding-bottom: 5px;
+}
+
+.forecast-report--circle {
+  aspect-ratio: 1;
+  border-radius: 100%;
+  color: #081f2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Rubik;
+  max-height: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.forecast-report--circle > div {
+  display: flex;
+}
+.forecast-report--wrapper {
+  font-family: Rubik;
+  display: flex;
+  gap: 1px;
+  padding-top: 1px;
+  overflow: auto hidden;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  height: 100%;
+}
+
+.forecast-report--wrapper > * {
+  scroll-snap-align: center;
+}
+
+.forecast-report--wrapper::-webkit-scrollbar {
+  display: none;
+}

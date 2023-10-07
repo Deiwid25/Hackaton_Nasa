@@ -1,0 +1,59 @@
+{
+  // Configuración del editor
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Configuración de TypeScript
+  "typescript.format.enable": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Configuración de ESLint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+
+  // Configuración de Prettier
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 80,
+  "prettier.bracketSameLine": true,
+  "prettier.disableLanguages": ["css"],
+
+  // Configuración de Material-UI Theme
+  "materialTheme.config": {
+    "theme": "Oceanic",
+    "accent": "Teal"
+  },
+
+  // Configuración de archivos y carpetas excluidos
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/*.js.map": false,
+    "**/*.css": false,
+    "**/*.min.js": false,
+    "**/node_modules": true
+  },
+
+  // Configuración de indentación para CSS
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+
+  // Configuración de indentación para TypeScript
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  }
+
+}
