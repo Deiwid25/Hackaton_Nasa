@@ -72,7 +72,7 @@ export const Map = () => {
         <WMSTileLayer
           url="https://geoportal.siata.gov.co/geoserver/ows"
           layers="areas"
-          attribution="geohub-siata"
+          attribution="air-pulse"
           format="image/png"
           transparent={true}
           opacity={0.3}
@@ -82,9 +82,9 @@ export const Map = () => {
         <ScaleControl position='bottomright' imperial={false} />
         <ChangeView center={center} zoom={zoom} />
         <AirLayer />
-        <RadarLayer />
-        <LevelsLayer />
-        <CamsLayer />
+        {/* <RadarLayer /> */}
+        {/* <LevelsLayer /> */}
+        {/* <CamsLayer /> */}
         <div className='right-buttons-container'>
           <InteractionButtons />
           <ZoomControl />

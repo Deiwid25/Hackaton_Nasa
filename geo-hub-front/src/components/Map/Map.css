@@ -8,16 +8,14 @@
   z-index: 800;
 }
 
-/* .leaflet-layer,
+.leaflet-layer,
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out,
 .leaflet-control-attribution {
-  filter: invert(83%) hue-rotate(180deg) brightness(95%) contrast(90%);
-} */
-
-.dark-mode {
-  filter: invert(83%) hue-rotate(235deg) brightness(95%) contrast(90%);
+  filter: hue-rotate(45deg) brightness(95%) contrast(90%);
 }
+
+  
 
 .light-mode {
   display: none;

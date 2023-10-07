@@ -21,16 +21,16 @@ function App() {
         <div className='header-app'>
           <HeaderProvider>
             <Header />
-            <Forecast />
+            {/* <Forecast /> */}
           </HeaderProvider>
         </div>
         <MapsProvider>
           <LayersProvider>
             <Map />
-            <MenuNetwork />
-            <MenuNetworkDesktop />
-            <SocialNetworks />           
-            <InformationButtons />        
+            {/* <MenuNetwork /> */}
+            {/* <MenuNetworkDesktop /> */}
+            {/* <SocialNetworks />            */}
+            {/* <InformationButtons />         */}
           </LayersProvider>
         </MapsProvider>
       </ThemeProvider>

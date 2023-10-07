@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export function MapsProvider({ children }: ContextProps) {
     const [center, setCenter] = useState<LatLngExpression>([6.255636, -75.570225])
-    const [zoom, setZoom] = useState<MapOptions["zoom"]>(9);    
+    const [zoom, setZoom] = useState<MapOptions["zoom"]>(13);    
 
     const setMyLocation = async () => {
         setCenter(await getLocationForMap());

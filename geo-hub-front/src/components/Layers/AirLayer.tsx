@@ -87,7 +87,7 @@ export const AirLayer = () => {
                 <LayerGroup>
                     {PM25 && (
                         <GeoJSON
-                            attribution='Capa de Aire'
+                            attribution='protege cada suspiro'
                             data={PM25}
                             onEachFeature={onEachFeature}
                             pointToLayer={pointToLayer}
