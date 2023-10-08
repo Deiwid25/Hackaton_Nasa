@@ -83,8 +83,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Enviroment Variables
-.env
-.env.development
+
 
 # End of https://www.toptal.com/developers/gitignore/api/react,linux,windows
