@@ -1,0 +1,16 @@
+.container-warnings{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 100%;
+    border: 2px solid black;
+        /* background-color: var(--warning-600); */
+   
+}
+
+.container-warnings img{
+    max-width: 75%;
+    max-height: 70%;
+}

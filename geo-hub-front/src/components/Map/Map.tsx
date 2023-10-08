@@ -69,7 +69,7 @@ export const Map = () => {
         transparent={true}
         /> */}
 
-        <WMSTileLayer
+        {/* <WMSTileLayer
           url="https://geoportal.siata.gov.co/geoserver/ows"
           layers="areas"
           attribution="air-pulse"
@@ -77,7 +77,7 @@ export const Map = () => {
           transparent={true}
           opacity={0.3}
 
-        />
+        /> */}
 
         <ScaleControl position='bottomright' imperial={false} />
         <ChangeView center={center} zoom={zoom} />

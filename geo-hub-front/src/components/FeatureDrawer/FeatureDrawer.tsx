@@ -8,11 +8,13 @@ import { CloseIcon } from '../../assets/icons/SiataIcons';
 import { CamDrawerCard } from '../DrawerCards/CamDrawerCard';
 
 export const FeatureDrawer = () => {
-  const { arrayOfDrawer, setArrayOfDrawer } =
+  const { drawerOpen, setDrawerOpen, arrayOfDrawer, setArrayOfDrawer } =
     useContext(LayersContext);
   const isMobile = useMediaQuery('(max-width: 600px)');
 
-
+  const handleCloseDrawer = () => {
+    setDrawerOpen(false);
+  };
 
   const handleDeleteCard = (indexToDelete: number) => {
     const updatedArray = arrayOfDrawer.filter(
@@ -30,8 +32,8 @@ export const FeatureDrawer = () => {
         },
       }}
       anchor='right'
-      open={() => console.log("open")}
-      onClose={() => console.log("close")}>
+      open={drawerOpen}
+      onClose={() => setDrawerOpen(false)}>
       <Box
         sx={{
           display: 'grid',
@@ -40,50 +42,36 @@ export const FeatureDrawer = () => {
           paddingTop: '20px',
           padding: ''
         }}>
+        <Button
+          sx={{
+            minWidth: '1px',
+            color: 'var(--shades-0)',
+          }}
+          onClick={handleCloseDrawer}>
+          <CloseIcon />
+        </Button>
+      </Box>
+
+      <Box
+        sx={{
+          background: 'var(--neutral-50)',
+          borderRadius: '8px',
+          margin: '30px 20px',
+          display: 'flex',
+          justifyContent: 'center',
+          padding: '20px',
+          flexDirection:'column'
+        }}
+      >
+        <Typography
+          variant='h5'
+        >
+          Indicador PM2.5 Historico
+        </Typography>
+        <img src="" alt="Historico Indicador PM2.5." />
 
       </Box>
-      {arrayOfDrawer.length === 0 ? (
-        <Box
-          sx={{
-            background: 'var(--neutral-50)',
-            borderRadius: '8px',
-            margin: '30px 20px',
-            display: 'flex',
-            justifyContent: 'center',
-            padding: '20px'
-          }}
-        >
-          <Typography
-            variant='body2'
-          >
-            Debe seleccionar una estación.
-          </Typography>
-        </Box>
-      ) : (
-        <Box sx={{ padding: '0 20px' }}>
-          {arrayOfDrawer.map((card, index) =>
-            card?.properties?.fig_30d ? (
-              <LevelDrawerCard
-                key={card?.properties?.codigo && card?.properties?.nombreEstacion}
-                featureData={card}
-                onDelete={() => handleDeleteCard(index)}
-              />
-            ) : card?.properties?.PM25_24H_prom ?
-              <AirDrawerCard
-                key={card?.properties?.codigo && card?.properties?.nombreEstacion}
-                featureData={card}
-                onDelete={() => handleDeleteCard(index)}
-              />
-              : (
-                <CamDrawerCard
-                  key={card?.properties?.codigo && card?.properties?.nombre}
-                  featureData={card}
-                  onDelete={() => handleDeleteCard(index)}
-                />
-              )
-          )}
-        </Box>
-      )}
+
     </Drawer>
   );
 };

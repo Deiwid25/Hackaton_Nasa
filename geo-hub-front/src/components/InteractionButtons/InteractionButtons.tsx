@@ -12,6 +12,7 @@ import { useContext, useState } from 'react';
 import './InteractionButtons.css';
 import { MapsContext } from '../../contexts/Maps/MapsContext';
 import { ContactForm } from '../ContactForm/ContactForm';
+import { LayersContext } from '../../contexts/Layers/LayersContext';
 // import { LayersContext } from '../../contexts/Layers/LayersContext';
 // import { LegendsLayers } from '../LengendsLayers/LegendsLayers';
 // import { ZoomControl } from '../ZoomControl/ZoomControl';
@@ -23,6 +24,7 @@ export const InteractionButtons: React.FC = () => {
   const isMobile = useMediaQuery('(max-width: 600px)');
   const isShortHeight = useMediaQuery('(max-height: 880px)');
   const { setMyLocation } = useContext(MapsContext);
+  const { setDrawerOpen, drawerOpen } = useContext(LayersContext)
 
 
   // const handleCloseContactModal = () => {
@@ -30,12 +32,17 @@ export const InteractionButtons: React.FC = () => {
   // };
 
   const buttons = [
-      {
-        icon: <OutlineLocationIcon />,
-        label: 'Location',
-        onClick: async () => await setMyLocation()
-      },
-    ];
+    {
+      icon: <Button sx={{color:"white"}}>Historico</Button>,
+      label: 'Historico',
+      onClick: (() => setDrawerOpen(!drawerOpen))
+    },
+    {
+      icon: <OutlineLocationIcon />,
+      label: 'Location',
+      onClick: async () => await setMyLocation()
+    },
+  ];
 
   return (
     <div className='interactionButtons'>
@@ -57,7 +64,7 @@ export const InteractionButtons: React.FC = () => {
         </Button>
 
       ))}
-      
+
       {/* <LegendsLayers /> */}
 
 

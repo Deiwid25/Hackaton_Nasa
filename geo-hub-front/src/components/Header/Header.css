@@ -1,7 +1,6 @@
 .header {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  
   max-height: 16vh;
   border-radius: 8px;
   padding: 10px;
@@ -10,19 +9,47 @@
   z-index: 400;
 }
 .container-air-data {
-  background-color: var(--primary-500);
+  background-color: rgba(0, 81, 66, 0.4);
   border-radius: 16px;
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   width: 100%;
-  flex-direction: row;  
 }
 
 .air-data-station {
-  display: flex;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  justify-items: center;
 }
 
 .air-station-name {
-  border: 1px red solid;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 14px;
+}
+
+.air-value {
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid rgba(56, 56, 56, 0.7);
+  border: 2px solid var(--shades-0);
+  display: flex;
+  font-family: "Rubik";
+  font-size: 10px;
+  font-weight: 400;
+  height: 20px;
+  justify-content: center;
+  width: 20px;
+}
+
+.air-warnings {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 6px;
 }
 
 .container-logo {

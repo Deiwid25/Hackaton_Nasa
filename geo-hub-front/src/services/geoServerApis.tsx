@@ -8,7 +8,7 @@ async function airPM25PoecaApi() {
     }
     try {
         const res = await axios.request(config);
-        console.log("aire", res?.data)
+        console.log("aire hoy", res?.data)
         return res?.data
     } catch {
         console.log("error getting the PM 2.5 Poeca info")
