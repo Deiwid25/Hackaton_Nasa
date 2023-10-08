@@ -5,24 +5,24 @@ export const NewLegend = () => {
   return (
     <div className='newLegend'>
       <div className='legend'>
-        <div className='figure' style={{'backgroundColor':'green'}}></div>
-        <h1>Bueno</h1>
+        <div className='figure' style={{ 'backgroundColor': '#91D23E' }}></div>
+        <h1>Good</h1>
       </div>
       <div className='legend'>
-        <div className='figure' style={{'backgroundColor':'yellow'}}></div>
-        <h1>Moderada</h1>
+        <div className='figure' style={{ 'backgroundColor': '#FCE65E' }}></div>
+        <h1>Moderate</h1>
       </div>
       <div className='legend'>
-        <div className='figure' style={{'backgroundColor':'orange'}}></div>
-        <h1>Dañina para grupos sensibles</h1>
+        <div className='figure' style={{ 'backgroundColor': '#f88d2a' }}></div>
+        <h1>Harmful to sensitive groups</h1>
       </div>
       <div className='legend'>
-        <div className='figure' style={{'backgroundColor':'red'}}></div>
-        <h1>Dañina a la salud</h1>
+        <div className='figure' style={{ 'backgroundColor': '#e7004c' }}></div>
+        <h1>Harmful to health</h1>
       </div>
       <div className='legend'>
-        <div className='figure' style={{'backgroundColor':'purple'}}></div>
-        <h1>Muy dañina a la salud</h1>
+        <div className='figure' style={{ 'backgroundColor': '#53116a' }}></div>
+        <h1>Very harmful to health</h1>
       </div>
     </div>
   )

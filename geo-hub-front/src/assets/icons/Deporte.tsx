@@ -1,9 +1,9 @@
 import {useState} from 'react'
-import imagenSensible from "./sensibles.png"
+import imagenDeporte from "./deporte.png"
 import "./warnings.css"
 import Tooltip from '@mui/material/Tooltip';
 
-export const Sensibles = () => {
+export const Deporte = () => {
     const [open, setOpen] = useState(false);
 
     const handleTooltipOpen = () => {
@@ -18,10 +18,10 @@ export const Sensibles = () => {
                 <Tooltip
                     open={open}
                     onClose={handleTooltipClose}
-                    title="Sensitive people"
+                    title="Outdoor sports"
                     arrow
                 >
-                    <img onClick={handleTooltipOpen} src={imagenSensible} alt="" style={{'cursor':'pointer'}} />
+                    <img onClick={handleTooltipOpen} src={imagenDeporte} alt="" style={{'cursor':'pointer'}} />
                 </Tooltip>
         </div>
     )

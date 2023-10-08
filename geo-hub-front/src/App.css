@@ -6,6 +6,12 @@
     height: auto;
   }
 }
+
+.header-app {
+  display:flex;
+  max-height: 20vh;
+}
+
 body {
   scroll-behavior: initial;
   height: 100vh;

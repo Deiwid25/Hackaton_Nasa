@@ -47,6 +47,18 @@
 
 .air-warnings {
   display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.air-warnings-title {
+  text-align: center;
+}
+
+.air-warnings-icons {
+  display: flex;
   justify-content: center;
   align-content: center;
   gap: 6px;

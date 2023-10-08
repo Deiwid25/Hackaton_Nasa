@@ -7,6 +7,7 @@ import './AirLayer.css';
 import { FeatureDrawer } from '../FeatureDrawer/FeatureDrawer';
 import { createOnEachFeature } from './onEachFeature';
 // import { getCams } from '../../services/geoServerApis';
+import data from "./dalas_PM25.geojson"
 
 
 
@@ -87,7 +88,7 @@ export const AirLayer = () => {
                 <LayerGroup>
                     {PM25 && (
                         <GeoJSON
-                            attribution='protege cada suspiro'
+                            attribution='data from: epa.gov / NASA Int. Space Apps Challenge'
                             data={PM25}
                             onEachFeature={onEachFeature}
                             pointToLayer={pointToLayer}
