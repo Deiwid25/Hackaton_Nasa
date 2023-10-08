@@ -2,9 +2,9 @@
   align-items: flex-end;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  padding-right: 0.5vw;
-  padding-top: 18vh;
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
   z-index: 800;
 }
 

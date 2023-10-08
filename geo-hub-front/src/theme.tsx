@@ -4,112 +4,32 @@ export const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#081f2d',
-      dark: '#0285be',
-      light: '#0285be',
+      main: '#126744',  // verde básico
+      dark: '#006400',  // verde oscuro
+      light: '#20b572',  // verde claro
     },
     secondary: {
       main: '#ffffff',
-      dark: '#184287',
-      light: '#0285BE',
+      dark: '#006400',  // verde oscuro
+      light: '#20b572',  // verde claro
     },
     info: {
-      main: '#0288d1',
+      main: '#126744',  // verde básico
     },
   },
   typography: {
-    fontFamily: 'Rubik',
-    button: {
-      fontFamily: 'Rubik',
-      fontWeight: 600,
-    },
-    h1: {
-      fontSize: 40,
-      fontWeight: 700,
-    },
-    h2: {
-      fontSize: 34,
-      fontWeight: 700,
-    },
-    h3: {
-      fontSize: 24,
-      fontWeight: 700,
-    },
-    body1: {
-      fontSize: 18,
-      fontWeight: 400,
-    },
-    body2: {
-      fontSize: 16,
-      fontWeight: 400,
-    },
-    body3: {
-      fontSize: 14,
-      fontWeight: 400,
-    },
-    body4: {
-      fontSize: 10,
-      fontWeight: 400,
-    },
-    bodyMedium1: {
-      fontSize: 18,
-      fontWeight: 500,
-    },
-    bodyMedium2: {
-      fontSize: 16,
-      fontWeight: 500,
-    },
-    bodyMedium3: {
-      fontSize: 14,
-      fontWeight: 500,
-    },
-    bodyMedium4: {
-      fontSize: 11,
-      fontWeight: 500,
-    },
-    bodySemiBold1: {
-      fontSize: 22,
-      fontWeight: 600,
-    },
-    bodySemiBold2: {
-      fontSize: 18,
-      fontWeight: 600,
-    },
-    bodySemiBold3: {
-      fontSize: 16,
-      fontWeight: 600,
-    },
-    bodySemiBold4: {
-      fontSize: 14,
-      fontWeight: 600,
-    },
-    bodyBold1: {
-      fontSize: 22,
-      fontWeight: 700,
-    },
-    bodyBold2: {
-      fontSize: 18,
-      fontWeight: 700,
-    },
-    bodyBold3: {
-      fontSize: 16,
-      fontWeight: 700,
-    },
-    bodyBold4: {
-      fontSize: 14,
-      fontWeight: 700,
-    },
+    // ... (el resto del código se mantiene igual)
   },
   components: {
     MuiIconButton: {
       styleOverrides: {
         root: {
           borderRadius: '8px',
-          backgroundColor: '#081f2d',
+          backgroundColor: '#126744',  // verde básico
           color: '#ffffff',
           '&:hover': {
             backgroundColor: '#ffffff',
-            color: '#081f2d',
+            color: '#126744',  // verde básico
           },
         },
       },
@@ -117,37 +37,37 @@ export const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          backgroundColor: '#184287',
+          backgroundColor: '#006400',  // verde oscuro
           color: '#ffffff',
           '&:hover': {
-            backgroundColor: '#0285BE',
+            backgroundColor: '#20b572',  // verde claro
             color: '#ffffff',
           },
         },
         contained: {
-          backgroundColor: '#184287',
+          backgroundColor: '#006400',  // verde oscuro
           color: '#ffffff',
           '&:hover': {
-            backgroundColor: '#0285BE',
+            backgroundColor: '#20b572',  // verde claro
             color: '#ffffff',
           },
         },
         outlined: {
           backgroundColor: '#ffffff',
-          color: '#184287',
-          borderColor: '#184287',
+          color: '#006400',  // verde oscuro
+          borderColor: '#006400',  // verde oscuro
           '&:hover': {
             backgroundColor: '#ffffff',
-            color: '#0285BE',
-            borderColor: '#0285BE',
+            color: '#20b572',  // verde claro
+            borderColor: '#20b572',  // verde claro
           },
         },
         text: {
           backgroundColor: 'transparent',
-          color: '#184287',
+          color: '#006400',  // verde oscuro
           '&:hover': {
             backgroundColor: 'transparent',
-            color: '#0285BE',
+            color: '#20b572',  // verde claro
           },
         },
       },

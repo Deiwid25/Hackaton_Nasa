@@ -8,13 +8,11 @@ import { CloseIcon } from '../../assets/icons/SiataIcons';
 import { CamDrawerCard } from '../DrawerCards/CamDrawerCard';
 
 export const FeatureDrawer = () => {
-  const { drawerOpen, setDrawerOpen, arrayOfDrawer, setArrayOfDrawer } =
+  const { arrayOfDrawer, setArrayOfDrawer } =
     useContext(LayersContext);
   const isMobile = useMediaQuery('(max-width: 600px)');
 
-  const handleCloseDrawer = () => {
-    setDrawerOpen(false);
-  };
+
 
   const handleDeleteCard = (indexToDelete: number) => {
     const updatedArray = arrayOfDrawer.filter(
@@ -32,8 +30,8 @@ export const FeatureDrawer = () => {
         },
       }}
       anchor='right'
-      open={drawerOpen}
-      onClose={() => setDrawerOpen(false)}>
+      open={() => console.log("open")}
+      onClose={() => console.log("close")}>
       <Box
         sx={{
           display: 'grid',
@@ -42,14 +40,7 @@ export const FeatureDrawer = () => {
           paddingTop: '20px',
           padding: ''
         }}>
-        <Button
-          sx={{
-            minWidth: '1px',
-            color: 'var(--shades-0)',
-          }}
-          onClick={handleCloseDrawer}>
-          <CloseIcon />
-        </Button>
+
       </Box>
       {arrayOfDrawer.length === 0 ? (
         <Box

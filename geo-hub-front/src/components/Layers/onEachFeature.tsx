@@ -7,11 +7,11 @@ interface OnEachFeatureProps {
 }
 
 //This function send information to Drawer each time is clicked a GEOTAG
-export function createOnEachFeature({ setDrawerOpen, setFeatureData, setArrayOfDrawer }: OnEachFeatureProps) {
+export function createOnEachFeature({ setFeatureData, setArrayOfDrawer }: OnEachFeatureProps) {
     return function onEachFeature(feature: LayersContextProps["featureData"], layer: any) {
         if (feature?.properties) {
             layer.on("click", () => {
-                setDrawerOpen(true);
+
                 setFeatureData(feature)
 
                 setArrayOfDrawer(

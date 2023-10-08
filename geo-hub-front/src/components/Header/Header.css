@@ -1,40 +1,35 @@
 .header {
-  align-items: center;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  
+  max-height: 16vh;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 90vw;
+  z-index: 400;
+}
+.container-air-data {
   background-color: var(--primary-500);
   border-radius: 16px;
-  border: none;
   display: flex;
-  justify-content: space-between;
-  padding: 1vh 1vw;
-  z-index: 99;
-  position: absolute;
-  width: 38vw;
-  aspect-ratio: 620/93;
-  margin: 1vw 1vw; 
-  min-width: fit-content;
+  width: 100%;
+  flex-direction: row;  
 }
 
-.img-header--container img {
-  height: 100%;
-  max-width: 150px;
-  margin: 0 8px;
+.air-data-station {
+  display: flex;
 }
 
-.typography-header {
-  color: var(--shades-0);
-  text-transform: none;
+.air-station-name {
+  border: 1px red solid;
 }
 
-@media (max-width: 600px) {
-  .header {
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px 0;
-    width: 90vw;
-  }
+.container-logo {
+  display: flex;
+  width: 100%;
+}
 
-  .img-header--container {
-    height: 8vh;
-    margin: -5px 0 -5px 0;
-  }
+.container-logo img {
+  max-width: 100%;
 }

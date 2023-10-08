@@ -88,7 +88,6 @@ export const Map = () => {
         <div className='right-buttons-container'>
           <InteractionButtons />
           <ZoomControl />
-          <LegendsLayers />
         </div>
 
       </MapContainer >

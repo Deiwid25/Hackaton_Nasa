@@ -39,10 +39,9 @@ export const ZoomControl: React.FC = () => {
           background: 'var(--primary-500)',
           borderRadius: '8px',
           padding: '5px',
-          margin: isMobile ? '0 0 5px 0' : '0 0 10px 0',
-          maxWidth: '35px',
-          minWidth: isMobile ? '35px' : '1vw',
-          minHeight: isMobile ? '35px' : '1vw',
+          margin: '30x 0 5px 0',
+          minWidth: '45px',
+          minHeight:'45px',
         }}>
         <PlusIcon />
       </Button>
@@ -56,10 +55,9 @@ export const ZoomControl: React.FC = () => {
           background: 'var(--primary-500)',
           borderRadius: '8px',
           padding: '5px',
-          margin: isMobile ? '0 0 5px 0' : '0 0 10px 0',
-          maxWidth: '35px',
-          minWidth: isMobile ? '35px' : '1vw',
-          minHeight: isMobile ? '35px' : '1vw',
+          margin: '0 0 5px 0',
+          minWidth: '45px',
+          minHeight:'45px',
         }}>
         <MinusIcon />
       </Button>
