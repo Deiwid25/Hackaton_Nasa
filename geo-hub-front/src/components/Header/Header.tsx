@@ -22,8 +22,8 @@ export const Header = () => {
     ["sin datos"],
   ];
   const warningIndex = !featureData
-    ? PM25?.features[8].properties?.color
-    : featureData?.properties?.color;
+    ? PM25?.features[8].properties?.Color
+    : featureData?.properties?.Color;
 
   const colorIndex = (value: string): number => {
     switch (value) {

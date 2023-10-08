@@ -31,12 +31,7 @@ export const InteractionButtons: React.FC = () => {
   //   setIsContactModalOpen(false);
   // };
 
-  const buttons = [
-    {
-      icon: <Button sx={{color:"white"}}>Historico</Button>,
-      label: 'Historico',
-      onClick: (() => setDrawerOpen(!drawerOpen))
-    },
+  const buttons = [ 
     {
       icon: <OutlineLocationIcon />,
       label: 'Location',

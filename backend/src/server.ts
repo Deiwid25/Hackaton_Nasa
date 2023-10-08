@@ -1,8 +1,10 @@
 import express from 'express';
 import fs from 'fs';
 import path from 'path';
+var cors = require('cors')
 
 const app = express();
+app.use(cors());
 const PORT = 5000;
 
 // Leer el archivo dalas_PM25.geojson

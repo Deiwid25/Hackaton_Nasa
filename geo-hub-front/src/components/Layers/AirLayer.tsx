@@ -35,7 +35,7 @@ function pointToLayer(feature: any, latlng: LatLngExpression) {
     const customMarker = L.divIcon({
         className: 'custom-marker',
         html: htmlMarkerCircle(
-            feature.properties.color,
+            feature.properties.Color,
             feature.properties.PM25_24H_prom
         ),
     });
