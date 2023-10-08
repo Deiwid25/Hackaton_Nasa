@@ -33,7 +33,7 @@ async function getLevels(): Promise<FeatureCollection | null> {
 
 async function getPM25(): Promise<FeatureCollection | null> {
 
-    const apiUrl = `${import.meta.env.VITE_GET_PM25}`
+    const apiUrl = "https://api-datanasa.azurewebsites.net/"
 
     try {
         const res = await axios.get(apiUrl);
