@@ -8,8 +8,10 @@
 }
 
 .header-app {
-  display:flex;
-  max-height: 20vh;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
 }
 
 body {

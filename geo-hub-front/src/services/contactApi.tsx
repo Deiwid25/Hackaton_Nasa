@@ -1,5 +1,3 @@
-import { FormData } from "../components/ContactForm/ContactForm";
-
 export const getTokenContactApi = async (
   username: string,
   password: string

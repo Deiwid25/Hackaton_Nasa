@@ -1,11 +1,5 @@
 import "./Header.css";
 import { useContext } from "react";
-import { Button, Typography, useMediaQuery } from "@mui/material";
-import {
-  ArrowRightIcon,
-  ChevronDownIcon,
-  ChevronUpIcon,
-} from "../../assets/icons/SiataIcons";
 import { LayersContext } from "../../contexts/Layers/LayersContext";
 import logoImage from "../../assets/images/logo.png";
 import { Sensibles } from "../../assets/icons/Sensibles";

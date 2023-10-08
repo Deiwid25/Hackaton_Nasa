@@ -1,4 +1,3 @@
-import React from 'react'
 import './NewLegend.css'
 
 export const NewLegend = () => {

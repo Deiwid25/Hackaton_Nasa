@@ -1,15 +1,15 @@
-import { MapContainer, ScaleControl, TileLayer, WMSTileLayer, useMap } from 'react-leaflet';
-import { RadarLayer } from '../Layers/RadarLayer';
+import { MapContainer, ScaleControl, TileLayer, useMap } from 'react-leaflet';
+
 import { ZoomControl } from '../ZoomControl/ZoomControl';
-import { useContext} from 'react';
+import { useContext } from 'react';
 import { MapsContext } from '../../contexts/Maps/MapsContext';
 import { LatLngExpression, MapOptions } from 'leaflet';
-import { LevelsLayer } from '../Layers/LevelsLayer';
+
 import { AirLayer } from '../Layers/AirLayer';
-import { CamsLayer } from '../Layers/CamsLayer';
+
 import "./Map.css"
 import { InteractionButtons } from '../InteractionButtons/InteractionButtons';
-import { LegendsLayers } from '../LengendsLayers/LegendsLayers';
+
 
 
 

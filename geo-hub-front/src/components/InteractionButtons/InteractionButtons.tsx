@@ -1,6 +1,5 @@
 import {
   Button,
-  Modal,
   useMediaQuery,
 } from '@mui/material';
 import {
@@ -8,11 +7,11 @@ import {
   OutlineLocationIcon,
   // VideoCameraIcon,
 } from '../../assets/icons/SiataIcons';
-import { useContext, useState } from 'react';
+import { useContext, } from 'react';
 import './InteractionButtons.css';
 import { MapsContext } from '../../contexts/Maps/MapsContext';
-import { ContactForm } from '../ContactForm/ContactForm';
-import { LayersContext } from '../../contexts/Layers/LayersContext';
+
+
 // import { LayersContext } from '../../contexts/Layers/LayersContext';
 // import { LegendsLayers } from '../LengendsLayers/LegendsLayers';
 // import { ZoomControl } from '../ZoomControl/ZoomControl';
@@ -22,16 +21,16 @@ export const InteractionButtons: React.FC = () => {
   // const [isContactModalOpen, setIsContactModalOpen] = useState(false);
   // const { setShowCams, showCams } = useContext(LayersContext);
   const isMobile = useMediaQuery('(max-width: 600px)');
-  const isShortHeight = useMediaQuery('(max-height: 880px)');
+
   const { setMyLocation } = useContext(MapsContext);
-  const { setDrawerOpen, drawerOpen } = useContext(LayersContext)
+
 
 
   // const handleCloseContactModal = () => {
   //   setIsContactModalOpen(false);
   // };
 
-  const buttons = [ 
+  const buttons = [
     {
       icon: <OutlineLocationIcon />,
       label: 'Location',

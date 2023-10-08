@@ -7,7 +7,7 @@ import './AirLayer.css';
 import { FeatureDrawer } from '../FeatureDrawer/FeatureDrawer';
 import { createOnEachFeature } from './onEachFeature';
 // import { getCams } from '../../services/geoServerApis';
-import data from "./dalas_PM25.geojson"
+
 
 
 

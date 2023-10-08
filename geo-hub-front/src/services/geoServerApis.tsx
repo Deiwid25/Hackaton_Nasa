@@ -17,25 +17,6 @@ async function airPM25PoecaApi() {
 }
 
 
-async function getGeoServerToken() {
-    const formData = new FormData();
-
-    formData.append('username', import.meta.env.VITE_USER_GEOSERVER);
-    formData.append('password', import.meta.env.VITE_PASSWORD_GEOSERVER);
-
-    try {
-        const res = await axios.post(
-            import.meta.env.VITE_POST_GEOSERVER_TKN,
-            formData
-        );
-        console.log("mytoken", res);
-        return res?.data?.access;
-    } catch (error) {
-        console.log(error);
-    }
-}
-
-
 async function getLevels(): Promise<FeatureCollection | null> {
 
     const apiUrl = `${import.meta.env.VITE_GET_LEVELS}`

@@ -2,13 +2,13 @@ import { useContext } from 'react';
 import { Box, Button, Drawer, Typography, useMediaQuery } from '@mui/material';
 import { LayersContext } from '../../contexts/Layers/LayersContext';
 import './FeatureDrawer.css';
-import { AirDrawerCard } from '../DrawerCards/AirDrawerCard';
-import { LevelDrawerCard } from '../DrawerCards/LevelDrawerCard/LevelDrawerCard';
+// import { AirDrawerCard } from '../DrawerCards/AirDrawerCard';
+// import { LevelDrawerCard } from '../DrawerCards/LevelDrawerCard/LevelDrawerCard';
 import { CloseIcon } from '../../assets/icons/SiataIcons';
-import { CamDrawerCard } from '../DrawerCards/CamDrawerCard';
+// import { CamDrawerCard } from '../DrawerCards/CamDrawerCard';
 
 export const FeatureDrawer = () => {
-  const { drawerOpen, setDrawerOpen, arrayOfDrawer, setArrayOfDrawer } =
+  const { drawerOpen, setDrawerOpen } =
     useContext(LayersContext);
   const isMobile = useMediaQuery('(max-width: 600px)');
 
@@ -16,12 +16,12 @@ export const FeatureDrawer = () => {
     setDrawerOpen(false);
   };
 
-  const handleDeleteCard = (indexToDelete: number) => {
-    const updatedArray = arrayOfDrawer.filter(
-      (_, index) => index !== indexToDelete
-    );
-    setArrayOfDrawer(updatedArray);
-  };
+  // const handleDeleteCard = (indexToDelete: number) => {
+  //   const updatedArray = arrayOfDrawer.filter(
+  //     (_, index) => index !== indexToDelete
+  //   );
+  //   setArrayOfDrawer(updatedArray);
+  // };
 
   return (
     <Drawer
@@ -60,7 +60,7 @@ export const FeatureDrawer = () => {
           display: 'flex',
           justifyContent: 'center',
           padding: '20px',
-          flexDirection:'column'
+          flexDirection: 'column'
         }}
       >
         <Typography
