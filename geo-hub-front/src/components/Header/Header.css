@@ -67,7 +67,7 @@
   display: flex;
   width: 50%;
   height: auto;
-  justify-content: flex-end;
+  justify-self: flex-end;
 }
 
 .container-logo img {
